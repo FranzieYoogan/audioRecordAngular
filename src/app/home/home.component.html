@@ -1,0 +1,21 @@
+<app-header></app-header>
+
+<section class="containerAll">
+
+    <div class="containerItems">
+
+    
+    <div class="containerButton"  id="imgAnimation" (mouseenter)="animation1()" (mouseleave)="animation2()">
+        
+        <img (click)="stop()" class="stop" src="/icons/stop.png" alt="">
+        <img (click)="startRecording()" id="imgTheOne" class="imgStyle" src="/icons/record.png" alt="">
+
+    </div>
+
+    <div class="containerAudio" id = "output"> 
+        <audio class="audioStyle" *ngIf="audioUrl" controls [src]="audioUrl"></audio>
+        <a *ngIf="audioUrl" [href]="audioUrl" download="recording.webm"></a>
+    </div>
+
+</div>
+</section>

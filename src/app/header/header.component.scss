@@ -1,0 +1,28 @@
+.navBar {
+
+    border-bottom: 2px solid #60dcdd;
+    background-color: transparent;
+
+}
+
+@font-face {
+    font-family: pixels;
+    src: url('/fonts/Minecraft.ttf');
+  }
+
+.spantStyle {
+
+    font-family: pixels;
+    color: white;
+    position: relative !important;
+    top: 0.2em;
+  }
+
+.iconStyle {
+
+    border: 2px solid white;
+    border-radius: 90px;
+    width: 50px;
+    height: auto;
+
+}

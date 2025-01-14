@@ -1,0 +1,48 @@
+.containerAll {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.imgStyle {
+
+    width: 150px;
+    // border: 2px solid white;
+    padding: 0.5em;
+    border-radius: 150px;
+    cursor: pointer;
+    // background: linear-gradient(to right, #d847d8, white);
+    background: linear-gradient(to right, white, white);
+
+}
+
+.stop {
+
+    width: 30px;
+    position: absolute;
+    left: 65%;
+    cursor: pointer;
+    z-index: 60;
+
+}
+
+.containerButton {
+
+    margin-top: 10%;
+    position: relative;
+    right: 0;
+}
+
+.containerAudio {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.audioStyle {
+
+    position: absolute;
+}
